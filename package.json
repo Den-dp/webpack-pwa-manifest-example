@@ -1,0 +1,22 @@
+{
+  "name": "webpack-pwa-manifest-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "rimraf ./dist",
+    "start": "webpack",
+    "poststart": "http-server ./ -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "http-server": "^0.10.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.2.0",
+    "webpack-pwa-manifest": "^3.1.1"
+  }
+}
